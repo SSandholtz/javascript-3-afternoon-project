@@ -51,16 +51,17 @@ var employees = [
 */
 
 function employeeUpdater() {
-   employees.map(obj, key)
-    for (let key in obj)
-      if (key === 'theo') {
-      delete employees.obj
+    for (let i = 0; i < employees.length; i++) {
+      if (employees[i].firstName === 'Theo') {
+      employees.splice(i, 1);
       }
-      else if (key === 'Lorie') {
-        let departChange = obj.key.HR
+      if (employees[i].firstName === 'Lorie') {
+        employees[i].department = "HR";
       }
     }
-    return employees
+    return employees;
+  }
+    
 
 
 
