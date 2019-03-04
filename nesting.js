@@ -50,7 +50,18 @@ var employees = [
     3. Return the updated employee array.
 */
 
-//Code Here
+function employeeUpdater() {
+   employees.map(obj, key)
+    for (let key in obj)
+      if (key === 'theo') {
+      delete employees.obj
+      }
+      else if (key === 'Lorie') {
+        let departChange = obj.key.HR
+      }
+    }
+    return employees
+
 
 
 
@@ -68,7 +79,9 @@ var workplaceAccidents = [12, 56, 44, 3, 29, 56, 56, 3, 7, 12];
     3. Return the updated array.
 */
 
-//Code Here
+function removeDuplicates() {
+  
+}
 
 
 
